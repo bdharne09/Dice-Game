@@ -6,7 +6,7 @@ randomNumber1 = Math.floor(randomNumber1);
 
 console.log(randomNumber1);
 
-var img1Str = "images/dice" + randomNumber1 + ".png";
+var img1Str = "dice" + randomNumber1 + ".png";
 
 document.getElementsByClassName("img1")[0].setAttribute("src", img1Str);
 
@@ -18,7 +18,7 @@ randomNumber2 = Math.floor(randomNumber2);
 
 console.log(randomNumber2);
 
-var img2Str = "images/dice" + randomNumber2 + ".png";
+var img2Str = "dice" + randomNumber2 + ".png";
 
 document.getElementsByClassName("img2")[0].setAttribute("src", img2Str);
 
